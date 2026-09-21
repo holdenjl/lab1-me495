@@ -1,0 +1,31 @@
+{
+  "allFourNominalTargetsPass": true,
+  "independentTransferFunctionRelativeError": 6.2420869514098556E-13,
+  "fineSampleInterval_s": 0.0001,
+  "fineGridRelativeSpeedReductions_pct": [
+    38.460988099582835,
+    39.459045267648172,
+    66.555768321352062,
+    35.161299016718637
+  ],
+  "allStable": true,
+  "fullInductancePeakAlsoPasses": true,
+  "jointComplianceScenario": [
+    {
+      "ID": "distal",
+      "EffectiveStiffness_Nm_rad": 7.0428183500367858,
+      "Resonance_Hz": 8.7409631688869336,
+      "PeakReduction_pct": 43.673399383220868,
+      "MovingCostReduction_pct": 40.282877940102445,
+      "TransientReduction_pct": 32.560493255143641
+    },
+    {
+      "ID": "motorwheel",
+      "EffectiveStiffness_Nm_rad": 20.52409628505729,
+      "Resonance_Hz": 24.036205788220624,
+      "PeakReduction_pct": 56.632530919826564,
+      "MovingCostReduction_pct": 37.138399488826977,
+      "TransientReduction_pct": 30.939801879645788
+    }
+  ]
+}

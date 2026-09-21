@@ -1,0 +1,27 @@
+POWERTRAIN DYNAMICS GROUP  |  ME 495  |  SEPTEMBER 2026
+Reducing flexible-shaft vibration
+1 / What we investigated
+The Gulo 3000 task asks us to explain vibration when the motor switches on or off and identify four
+passive changes that reduce it by at least 30%. We used the supplied bench measurements to build
+and check a model, then compared physical modifications. No modified hardware has been tested.
+[1,2]
+Poster overview. Red boxes describe the apparatus photo and CAD views the team still needs to add.
+The main finding
+The measurements show a resonance near 5.65 Hz: repeated voltage changes near this frequency
+produce unusually large speed oscillations. The flexible-shaft model reproduces this peak near 5.69
+Hz. This supports shaft twisting as a cause of the bench vibration; it does not establish passenger
+comfort in the vehicle.
+Recommended first prototype
+Replace only the distal flywheel with a 165 mm diameter steel wheel, and use a 4.50 mm diameter
+shaft of the original material. Keep wheel thickness at 12.7 mm and shaft free length at 305 mm. The
+model predicts a 44% lower resonance peak and 39% less switching motion, while preserving steady
+speed at the same voltage.
+How the evidence was collected
+Three sweeps covered 4–10 Hz. Another 28 recordings captured steady motor operation, free
+vibration and coastdown. Steady runs identified motor resistance and the relationship between speed
+and generated voltage. Decay tests estimated energy losses. Only effective shaft stiffness was
+adjusted to improve the sweep fit.
+For the motor-disconnected coastdowns, the motor was physically uncoupled and both flywheels
+remained connected by the shaft. Their combined inertia was therefore used in the calculations.
+Duplicate copies of the data were not counted as extra tests.
+Gulo 3000 • Technical handout  |  1 / 3

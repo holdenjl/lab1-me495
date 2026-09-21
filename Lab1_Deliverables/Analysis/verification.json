@@ -1,0 +1,14 @@
+{
+  "transferFunctionRelativeError": 4.6378454202546461E-15,
+  "costIntegrationRelativeError": 9.12920403495221E-7,
+  "startupODEMaxAbsoluteError": 8.41104124127412E-8,
+  "fineGridTransientReductions_pct": [
+    38.538895743862071,
+    45.053674306782277,
+    32.159821024237175,
+    32.220336833631471
+  ],
+  "allNominalTargetsPass": true,
+  "baselineStable": true,
+  "designsStable": true
+}

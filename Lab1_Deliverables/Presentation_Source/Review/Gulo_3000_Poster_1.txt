@@ -1,0 +1,71 @@
+Physical changes to reduce flexible-shaft vibration
+Gulo 3000  |  Powertrain Dynamics Group  |  ME 495  |  Experimental characterization and passive design
+Prototype first: 165 mm distal flywheel + 4.50 mm shaft  |  44% lower peak; 39% less switching motion
+1  Problem and experimental approach
+Motor switching excites twist between the flywheels.
+Task: explain the vibration and find four ≥30% solutions.
+PHOTO TO TAKE — complete test rig
+Take a clear front/oblique photo. Label the motor, motor-side 
+flywheel, flexible shaft, distal flywheel and both speed sensors. Keep 
+all components visible.
+CAD SCREENSHOTS TO ADD — physical changes
+Show the baseline assembly beside option 2: a 165 mm distal wheel 
+and 4.50 mm shaft. Dimension both. Add a small section view of 
+option 4: an 80 mm oil-damper rotor, 1 mm gaps on each face, and 
+a casing fixed to the frame.
+MEASURE
+IDENTIFY
+VALIDATE
+COMPARE
+3 frequency sweeps + 28 time recordings
+Steady runs identify the motor. Free-decay and coastdown 
+tests estimate losses. Sweep data refine shaft stiffness and 
+check the flexible model.
+Measured / identified
+Baseline value
+Resonance
+5.65 Hz
+Motor resistance
+2.495 Ω
+Effective shaft stiffness
+2.203 N·m/rad
+Coastdown: motor physically uncoupled; both flywheels stayed linked by the 
+shaft.
+2  The flexible model matches the data
+Validation metric
+Measured
+Model
+Resonance frequency
+5.65 Hz
+5.69 Hz
+Peak gain (rad/s/V)
+2.69
+2.55
+4–10 Hz fit error: 1.65 dB in gain; 7.02° in phase.
+Option 2 also reduces switching motion
+Simulation: +1 V for 4 s, then 0 V. Motion = difference between the two 
+wheel speeds.
+3  Four physical design alternatives
+Dotted line: 30% peak reduction. Shading: beyond measured data.
+Alternative
+Peak ↓
+Motion ↓
+1  Series resistor
+33%
+38%
+2  Larger distal wheel + shaft
+44%
+39%
+3  Smaller motor wheel + shaft
+57%
+67%
+4  Motor-side oil damper
+78%
+35%
+All four also reduce the 1-Hz response cost by ≥30%.
+1  Wire a 1.6 Ω power resistor in series; steady speed falls 29%.
+2  Fit a 165 mm distal wheel + 4.50 mm shaft; preserves speed.
+3  Fit a 105 mm motor wheel + 8.00 mm shaft; retest to 60 Hz.
+4  Add an oil rotor in a fixed casing; steady speed falls 88%.
+Full dimensions, mounting details and limitations: handout p. 3.
+Model predictions at equal voltage; modified hardware has not been tested. Geometry changes stiffness/inertia; extra damping needs a physical dissipater. Sources: task letter; Lab 1_1 / 1_2; handout references.

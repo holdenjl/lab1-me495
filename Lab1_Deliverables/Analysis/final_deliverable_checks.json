@@ -1,0 +1,13 @@
+{
+  "posterPages": 1,
+  "handoutPages": 3,
+  "handoutBodyFont_pt": 12,
+  "handoutWordCountIncludingReferences": 1106,
+  "matlabSourceFiles": 29,
+  "noPosterTextOverflow": true,
+  "rigidCurveRemoved": true,
+  "physicalDimensionsConsistent": true,
+  "nominalTargetsPass": true,
+  "jointComplianceScenarioMotionTargetsPass": true,
+  "editableSourcesPresent": true
+}

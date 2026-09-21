@@ -1,0 +1,12 @@
+Flexible Shaft
+9/10/2026 3:16:21 PM
+Sample Rate (Hz) = 2000.00
+Effective Sample Rate (Hz) = 2000.00
+Frequency (Hz)	Current Amplitude (A)	Bode Magnitude (dB)	Bode Phase (deg) 	Voltage (V_Amplitude)	Current (A_Amplitude)	Distal Tach (rad/s_Amplitude)	Motor Tach (rad/s_Amplitude)	Voltage (V_RMS)	Current (A_RMS)	Distal Tach (rad/s_RMS)	Motor Tach (rad/s_RMS)
+
+5.5002	0.5878	4.6097	-129.6455	1.7380	0.5878	2.9549	2.4812	1.2261	0.4179	2.0840	1.7525
+5.5500	0.5491	6.3266	-136.3227	1.7418	0.5491	3.6085	3.1882	1.2279	0.3904	2.5324	2.2383
+5.6001	0.5000	8.5060	-156.3404	1.7473	0.5000	4.6523	4.3217	1.2393	0.3572	3.3159	3.0784
+5.6501	0.3951	8.5856	-178.4642	1.7575	0.3951	4.7226	4.6297	1.2303	0.2863	3.2872	3.2213
+5.7002	0.4157	7.3045	-188.5115	1.7553	0.4157	4.0699	4.1947	1.2568	0.3008	2.9122	3.0155
+5.7494	0.4608	7.5833	-210.6420	1.7507	0.4608	4.1917	4.4221	1.2194	0.3217	2.9394	3.0931

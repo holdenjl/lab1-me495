@@ -1,0 +1,13 @@
+# Local tools and dependency caches; project sources/results are tracked.
+/.task_review_tools/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Local credentials, if added later.
+.env
+.env.*
+!.env.example

@@ -1,0 +1,34 @@
+POWERTRAIN DYNAMICS GROUP  |  ME 495  |  SEPTEMBER 2026
+2 / Why these changes should help
+Measured points and the flexible-shaft model. Gain means distal-wheel speed response per volt; phase shows
+its timing relative to the voltage. The large gain near 5.7 Hz is the resonance.
+Comparison
+Measured
+Model
+Resonance frequency
+5.65 Hz
+5.69 Hz
+Peak gain
+2.69 rad/s/V
+2.55 rad/s/V
+Across 4–10 Hz, the average fit error is 1.65 dB in gain and 7.02° in phase, using root-mean-square
+error. Leaving one sweep out and checking a separate broadband record supported the comparison,
+with larger errors retained in the analysis files.
+What counts as a successful change?
+We checked three things: the height of the new resonance peak, the response across a one-hertz
+band around that peak, and the largest difference between the two wheel speeds after switching.
+Each proposed option reduces all three by at least 30% in the nominal model. Moving the peak away
+from 5.7 Hz alone does not count as reducing its height.
+All switching comparisons start at rest, apply the same voltage for four seconds, then drive the input
+to zero for four seconds. The resistor and oil damper also slow the system; their switching benefit is
+much smaller if voltage is raised to restore the original speed.
+How we chose the hardware
+Small-change sensitivity tests screened all course parameters, then treated the flywheels separately.
+Independent flywheel sizes strongly affect peak height. A thicker shaft helps switching motion but
+barely lowers the peak by itself, so wheel changes are paired with shaft changes. Changing both
+wheel sizes together mainly shifts resonance.
+Resistance and motor-side damping remain physical alternatives. A lower motor constant was
+dropped because replacing a motor changes other properties too. A large shaft-damping target was
+dropped because shaft diameter or density cannot establish that damping increase. Detailed
+equations and sensitivity tables remain in the separate MATLAB folder.
+Gulo 3000 • Technical handout  |  2 / 3

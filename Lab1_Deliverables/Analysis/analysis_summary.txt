@@ -1,0 +1,301 @@
+ME495 analysis: 21-Sep-2026 14:11:01
+Data folder: C:\Users\holde\OneDrive\Desktop\495 data\Data
+Imported Distal Bearing +Shaft Damping 2: 20000 x 5
+Imported Distal Bearing Damping +Shaft 1 (eraser left side)_: 20000 x 5
+Imported Freq Sweep 4-10Hz: 155 x 12
+Imported Freq Sweep 5-7Hz: 21 x 12
+Imported Freq Sweep 5.4-5.8Hz: 6 x 12
+Imported Motor + Shaft Damping 1 (eraser right side): 20000 x 5
+Imported Motor + Shaft Damping 2: 20000 x 5
+Imported eraser 1: 20000 x 5
+Imported last test: 20000 x 5
+Imported motor connected unplugged: 40000 x 5
+Imported motor connected unplugged 2: 20000 x 5
+Imported motor constant 100 mV: 10000 x 5
+Imported motor constant 100 mV 2: 10000 x 5
+Imported motor constant 125 mV: 10000 x 5
+Imported motor constant 125 mV 2: 10000 x 5
+Imported motor constant 150 mV: 10000 x 5
+Imported motor constant 150 mV 2: 10000 x 5
+Imported motor constant 175 mV: 10000 x 5
+Imported motor constant 175 mV 2: 10000 x 5
+Imported motor constant 200 mV: 10000 x 5
+Imported motor constant 200 mV 2: 10000 x 5
+Imported motor constant 50 mV 2: 10000 x 5
+Imported motor constant 50mV: 10000 x 5
+Imported motor constant 75 mV: 10000 x 5
+Imported motor constant 75 mV 2: 10000 x 5
+Imported motor disconnected: 40000 x 5
+Imported motor disconnected 2: 40000 x 5
+Imported motor resistance: 10000 x 5
+Imported motor resistance 2: 10000 x 5
+Imported motor resistance 20 hz: 10000 x 5
+Imported motor resistance 20hz 2: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+ACTIVE sums used below: Btr=0.0014288159, Btl=0.0078077183 N*m*s/rad
+Coast fit motor disconnected: 4.0000 to 19.5000 s, 31001 samples
+Coast fit motor disconnected 2: 4.0000 to 19.5000 s, 31001 samples
+
+Bb=0.0001572071164; Bs=0.001271608771; Bm=0.006536109517 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687112 rad/s/V (8.58572 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.202905 N*m/rad; geometry multiplier=0.915524
+Initial RMS errors: 2.4560 dB, 28.3826 degrees
+Refined RMS errors: 1.6516 dB, 7.0174 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2164
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0580
+
+Including given Lm changes prediction by at most 0.0309 dB / 2.8824 deg in measured band.
+Refined resonance 5.69013 Hz; peak 2.54709; 1-Hz cost 10.0899 (rad/s/V)*(rad/s)
+    Parameter    FixedBandCostSensitivity    MovingBandCostSensitivity    PeakSensitivity    FrequencySensitivity
+    _________    ________________________    _________________________    _______________    ____________________
+
+     {'Km' }               0.73738                     0.73984                 0.51313            -0.0034073     
+     {'Rm' }              -0.86876                    -0.86993                 -0.7566             0.0016309     
+     {'Jm' }           -0.00077706                   0.0013678               0.0078848            -0.0029817     
+     {'Df' }               -3.2008                     -1.8563                -0.04824                -1.977     
+     {'Lf' }              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'rho'}              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'Ds' }                 1.396                   -0.027776               -0.016686                2.0117     
+     {'Ls' }              -0.35352                   0.0068868               0.0041695              -0.50288     
+     {'Gs' }               0.35508                  -0.0068804              -0.0041699               0.50285     
+     {'Bs' }               -0.1756                    -0.17465                -0.32638            -0.0013135     
+     {'Bb' }            -0.0055801                  -0.0055698               -0.010326           -1.4345e-05     
+     {'Bm' }              -0.22197                    -0.21999                -0.41153            -0.0027566     
+
+ME495 analysis: 21-Sep-2026 14:19:50
+Data folder: C:\Users\holde\OneDrive\Desktop\495 data\Data
+Imported Distal Bearing +Shaft Damping 2: 20000 x 5
+Imported Distal Bearing Damping +Shaft 1 (eraser left side)_: 20000 x 5
+Imported Freq Sweep 4-10Hz: 155 x 12
+Imported Freq Sweep 5-7Hz: 21 x 12
+Imported Freq Sweep 5.4-5.8Hz: 6 x 12
+Imported Motor + Shaft Damping 1 (eraser right side): 20000 x 5
+Imported Motor + Shaft Damping 2: 20000 x 5
+Imported eraser 1: 20000 x 5
+Imported last test: 20000 x 5
+Imported motor connected unplugged: 40000 x 5
+Imported motor connected unplugged 2: 20000 x 5
+Imported motor constant 100 mV: 10000 x 5
+Imported motor constant 100 mV 2: 10000 x 5
+Imported motor constant 125 mV: 10000 x 5
+Imported motor constant 125 mV 2: 10000 x 5
+Imported motor constant 150 mV: 10000 x 5
+Imported motor constant 150 mV 2: 10000 x 5
+Imported motor constant 175 mV: 10000 x 5
+Imported motor constant 175 mV 2: 10000 x 5
+Imported motor constant 200 mV: 10000 x 5
+Imported motor constant 200 mV 2: 10000 x 5
+Imported motor constant 50 mV 2: 10000 x 5
+Imported motor constant 50mV: 10000 x 5
+Imported motor constant 75 mV: 10000 x 5
+Imported motor constant 75 mV 2: 10000 x 5
+Imported motor disconnected: 40000 x 5
+Imported motor disconnected 2: 40000 x 5
+Imported motor resistance: 10000 x 5
+Imported motor resistance 2: 10000 x 5
+Imported motor resistance 20 hz: 10000 x 5
+Imported motor resistance 20hz 2: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+ACTIVE sums used below: Btr=0.0014288159, Btl=0.0078077183 N*m*s/rad
+Coast fit motor disconnected: 4.0000 to 19.5000 s, 31001 samples
+Coast fit motor disconnected 2: 4.0000 to 19.5000 s, 31001 samples
+
+Bb=0.0001572071164; Bs=0.001271608771; Bm=0.006536109517 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687112 rad/s/V (8.58572 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.202905 N*m/rad; geometry multiplier=0.915524
+Initial RMS errors: 2.4560 dB, 28.3826 degrees
+Refined RMS errors: 1.6516 dB, 7.0174 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2164
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0580
+
+Including given Lm changes prediction by at most 0.0309 dB / 2.8824 deg in measured band.
+Refined resonance 5.69013 Hz; peak 2.54709; 1-Hz cost 10.0899 (rad/s/V)*(rad/s)
+    Parameter    FixedBandCostSensitivity    MovingBandCostSensitivity    PeakSensitivity    FrequencySensitivity
+    _________    ________________________    _________________________    _______________    ____________________
+
+     {'Km' }               0.73738                     0.73984                 0.51313            -0.0034073     
+     {'Rm' }              -0.86876                    -0.86993                 -0.7566             0.0016309     
+     {'Jm' }           -0.00077706                   0.0013678               0.0078848            -0.0029817     
+     {'Df' }               -3.2008                     -1.8563                -0.04824                -1.977     
+     {'Lf' }              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'rho'}              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'Ds' }                 1.396                   -0.027776               -0.016686                2.0117     
+     {'Ls' }              -0.35352                   0.0068868               0.0041695              -0.50288     
+     {'Gs' }               0.35508                  -0.0068804              -0.0041699               0.50285     
+     {'Bs' }               -0.1756                    -0.17465                -0.32638            -0.0013135     
+     {'Bb' }            -0.0055801                  -0.0055698               -0.010326           -1.4345e-05     
+     {'Bm' }              -0.22197                    -0.21999                -0.41153            -0.0027566     
+
+    Parameter              Option               Baseline     Proposed    Factor     Change_pct    Resonance_Hz    PeakReduction_pct    MovingCostReduction_pct    FixedCostReduction_pct    TransientReduction_pct    OpenOffReduction_pct    DCGainRatio    EqualSpeedTransientReduction_pct    LocalResonanceExists
+    _________    ___________________________    _________    ________    _______    __________    ____________    _________________    _______________________    ______________________    ______________________    ____________________    ___________    ________________________________    ____________________
+
+     {'Rm'}      {'Added series resistance'}       2.4947       4.1       1.6435      64.347         5.6936             32.73                  35.871                     35.844                    38.541                   38.541              0.7103                   13.475                        true         
+     {'Km'}      {'Lower motor constant'   }     0.098214     0.053      0.53964     -46.036          5.696            34.742                  40.499                     40.458                     45.05                    45.05             0.72878                   24.599                        true         
+     {'Bs'}      {'Shaft-path damper'      }    0.0012716     0.039        30.67        2967            NaN            85.886                  82.565                     82.565                    32.155                   32.164                   1                   32.155                        false        
+     {'Bm'}      {'Motor-side damper'      }    0.0065361     0.077       11.781      1078.1          5.111            77.632                  65.938                     71.352                    32.221                   32.221             0.13033                  -420.05                        true         
+
+              segments: 9
+                 df_Hz: 0.5000
+    coherenceThreshold: 0.8000
+              binsUsed: 9
+      magnitudeRMSE_dB: 2.6866
+         phaseRMSE_deg: 8.9769
+
+      transferFunctionRelativeError: 4.6378e-15
+       costIntegrationRelativeError: 9.1292e-07
+         startupODEMaxAbsoluteError: 8.4110e-08
+    fineGridTransientReductions_pct: [4×1 double]
+              allNominalTargetsPass: 1
+                     baselineStable: 1
+                      designsStable: 1
+
+ME495 analysis: 21-Sep-2026 15:20:01
+Data folder: C:\Users\holde\OneDrive\Desktop\495 data\Data
+Imported Distal Bearing +Shaft Damping 2: 20000 x 5
+Imported Distal Bearing Damping +Shaft 1 (eraser left side)_: 20000 x 5
+Imported Freq Sweep 4-10Hz: 155 x 12
+Imported Freq Sweep 5-7Hz: 21 x 12
+Imported Freq Sweep 5.4-5.8Hz: 6 x 12
+Imported Motor + Shaft Damping 1 (eraser right side): 20000 x 5
+Imported Motor + Shaft Damping 2: 20000 x 5
+Imported eraser 1: 20000 x 5
+Imported last test: 20000 x 5
+Imported motor connected unplugged: 40000 x 5
+Imported motor connected unplugged 2: 20000 x 5
+Imported motor constant 100 mV: 10000 x 5
+Imported motor constant 100 mV 2: 10000 x 5
+Imported motor constant 125 mV: 10000 x 5
+Imported motor constant 125 mV 2: 10000 x 5
+Imported motor constant 150 mV: 10000 x 5
+Imported motor constant 150 mV 2: 10000 x 5
+Imported motor constant 175 mV: 10000 x 5
+Imported motor constant 175 mV 2: 10000 x 5
+Imported motor constant 200 mV: 10000 x 5
+Imported motor constant 200 mV 2: 10000 x 5
+Imported motor constant 50 mV 2: 10000 x 5
+Imported motor constant 50mV: 10000 x 5
+Imported motor constant 75 mV: 10000 x 5
+Imported motor constant 75 mV 2: 10000 x 5
+Imported motor disconnected: 40000 x 5
+Imported motor disconnected 2: 40000 x 5
+Imported motor resistance: 10000 x 5
+Imported motor resistance 2: 10000 x 5
+Imported motor resistance 20 hz: 10000 x 5
+Imported motor resistance 20hz 2: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+ACTIVE sums used below: Btr=0.0014288159, Btl=0.0078077183 N*m*s/rad
+Coast fit motor disconnected: 4.0000 to 19.5000 s, 31001 samples
+Coast fit motor disconnected 2: 4.0000 to 19.5000 s, 31001 samples
+
+Bb=0.0001572071164; Bs=0.001271608771; Bm=0.006536109517 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687112 rad/s/V (8.58572 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.202905 N*m/rad; geometry multiplier=0.915524
+Initial RMS errors: 2.4560 dB, 28.3826 degrees
+Refined RMS errors: 1.6516 dB, 7.0174 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2164
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0580
+
+Including given Lm changes prediction by at most 0.0309 dB / 2.8824 deg in measured band.
+Refined resonance 5.69013 Hz; peak 2.54709; 1-Hz cost 10.0899 (rad/s/V)*(rad/s)
+    Parameter    FixedBandCostSensitivity    MovingBandCostSensitivity    PeakSensitivity    FrequencySensitivity
+    _________    ________________________    _________________________    _______________    ____________________
+
+     {'Km' }               0.73738                     0.73984                 0.51313            -0.0034073     
+     {'Rm' }              -0.86876                    -0.86993                 -0.7566             0.0016309     
+     {'Jm' }           -0.00077706                   0.0013678               0.0078848            -0.0029817     
+     {'Df' }               -3.2008                     -1.8563                -0.04824                -1.977     
+     {'Lf' }              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'rho'}              -0.81789                    -0.46408               -0.012055              -0.49428     
+     {'Ds' }                 1.396                   -0.027776               -0.016686                2.0117     
+     {'Ls' }              -0.35352                   0.0068868               0.0041695              -0.50288     
+     {'Gs' }               0.35508                  -0.0068804              -0.0041699               0.50285     
+     {'Bs' }               -0.1756                    -0.17465                -0.32638            -0.0013135     
+     {'Bb' }            -0.0055801                  -0.0055698               -0.010326           -1.4345e-05     
+     {'Bm' }              -0.22197                    -0.21999                -0.41153            -0.0027566     
+
+    Parameter              Option               Baseline     Proposed    Factor     Change_pct    Resonance_Hz    PeakReduction_pct    MovingCostReduction_pct    FixedCostReduction_pct    TransientReduction_pct    OpenOffReduction_pct    DCGainRatio    EqualSpeedTransientReduction_pct    LocalResonanceExists
+    _________    ___________________________    _________    ________    _______    __________    ____________    _________________    _______________________    ______________________    ______________________    ____________________    ___________    ________________________________    ____________________
+
+     {'Rm'}      {'Added series resistance'}       2.4947       4.1       1.6435      64.347         5.6936             32.73                  35.871                     35.844                    38.541                   38.541              0.7103                   13.475                        true         
+     {'Km'}      {'Lower motor constant'   }     0.098214     0.053      0.53964     -46.036          5.696            34.742                  40.499                     40.458                     45.05                    45.05             0.72878                   24.599                        true         
+     {'Bs'}      {'Shaft-path damper'      }    0.0012716     0.039        30.67        2967            NaN            85.886                  82.565                     82.565                    32.155                   32.164                   1                   32.155                        false        
+     {'Bm'}      {'Motor-side damper'      }    0.0065361     0.077       11.781      1078.1          5.111            77.632                  65.938                     71.352                    32.221                   32.221             0.13033                  -420.05                        true         
+
+              segments: 9
+                 df_Hz: 0.5000
+    coherenceThreshold: 0.8000
+              binsUsed: 9
+      magnitudeRMSE_dB: 2.6866
+         phaseRMSE_deg: 8.9769
+
+          ID                      Option                 Resonance_Hz    PeakGain_rad_s_V    PeakReduction_pct    MovingCostReduction_pct    TransientReduction_pct    DCGainRatio    EqualSpeedTransientReduction_pct    OpenOffReduction_pct    DriveInertia_kg_m2    LoadInertia_kg_m2    Stiffness_Nm_rad    PeakCurrent_A_per_V    PeakMotorSpeed_rad_s_per_V    PeakTwist_rad_per_V    LocalResonanceExists    FullInductancePeakReduction_pct
+    ______________    _______________________________    ____________    ________________    _________________    _______________________    ______________________    ___________    ________________________________    ____________________    __________________    _________________    ________________    ___________________    __________________________    ___________________    ____________________    _______________________________
+
+    {'resistor'  }    {'Series resistor'            }       5.6935            1.7153              32.658                  35.795                     38.461              0.71098                   13.444                        38.461               0.0034485             0.0034062             2.2029               0.24365                    2.6372                   0.0098175                true                         32.625             
+    {'distal'    }    {'Larger distal wheel + shaft'}       9.7922            1.4341              43.695                  40.322                     39.459                    1                   39.459                        39.459               0.0034485             0.0071667             8.8336                0.3987                    3.6592                   0.0056846                true                         43.723             
+    {'motorwheel'}    {'Smaller motor wheel + shaft'}       49.899            1.1029                56.7                  37.253                     66.555                    1                   66.555                        66.555               0.0012176             0.0034062             88.236               0.39884                    3.7277                  0.00062879                true                         57.297             
+    {'oildamper' }    {'Motor-side oil damper'      }       5.0139           0.54844              78.468                  67.115                     35.161              0.11871                   -446.2                        35.161               0.0035108             0.0034062             2.2029               0.39881                   0.46626                   0.0091952                true                         78.468             
+
+                            oil: [1×1 struct]
+           baselineWheelMass_kg: 1.4518
+             distalWheelMass_kg: 2.1059
+              motorWheelMass_kg: 0.8528
+              addedResistor_ohm: 1.6000
+            totalResistance_ohm: 4.0947
+     resistorPeakPower_W_per_V2: 0.0950
+    resistorStallPower_W_per_V2: 0.0954
+       damperPeakPower_W_per_V2: 0.0170
+      resistorStallPowerAt12V_W: 13.7414
+           oilTorqueAt1rad_s_Nm: 0.0784
+
+      transferFunctionRelativeError: 4.6378e-15
+       costIntegrationRelativeError: 9.1292e-07
+         startupODEMaxAbsoluteError: 8.4110e-08
+    fineGridTransientReductions_pct: [4×1 double]
+              allNominalTargetsPass: 1
+                     baselineStable: 1
+                      designsStable: 1
+
+[Warning: Vectorized content might take a long time to create, or it might contain unexpected results. Set 'ContentType' to 'image' for better performance. <a
+href="matlab:warning('off', 'MATLAB:print:ContentTypeImageSuggested')">Click here</a> to not see this message again.] 
+                   allFourNominalTargetsPass: 1
+    independentTransferFunctionRelativeError: 6.2421e-13
+                        fineSampleInterval_s: 1.0000e-04
+         fineGridRelativeSpeedReductions_pct: [4×1 double]
+                                   allStable: 1
+                fullInductancePeakAlsoPasses: 1
+                     jointComplianceScenario: [2×1 struct]
+
+          ID          EffectiveStiffness_Nm_rad    Resonance_Hz    PeakReduction_pct    MovingCostReduction_pct    TransientReduction_pct
+    ______________    _________________________    ____________    _________________    _______________________    ______________________
+
+    {'distal'    }             7.0428                  8.741            43.673                  40.283                     32.56         
+    {'motorwheel'}             20.524                 24.036            56.633                  37.138                     30.94         
+

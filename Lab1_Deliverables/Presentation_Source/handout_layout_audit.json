@@ -1,0 +1,23 @@
+[
+  {
+    "page": 1,
+    "font": 12,
+    "image_scale": 1,
+    "content_height_pt": 629.5935583413693,
+    "bottom_y": 122.40644165863065
+  },
+  {
+    "page": 2,
+    "font": 12,
+    "image_scale": 1,
+    "content_height_pt": 678.2566077348067,
+    "bottom_y": 73.74339226519342
+  },
+  {
+    "page": 3,
+    "font": 12,
+    "image_scale": 1,
+    "content_height_pt": 640.6499999999999,
+    "bottom_y": 111.35000000000011
+  }
+]

@@ -1,0 +1,424 @@
+ME495 analysis: 18-Sep-2026 05:30:34
+Data folder: /Users/paidsebs/Documents/me495/lab1 /data
+Imported 1st measurement.txt: 155 x 12
+Imported 2nd measurement.txt: 21 x 12
+Imported 3rd.txt: 6 x 12
+Imported eraser 1.txt: 20000 x 5
+Imported eraser left side 1.txt: 20000 x 5
+Imported eraser left side 2.txt: 20000 x 5
+Imported eraser right side 1.txt: 20000 x 5
+Imported eraser right side 2.txt: 20000 x 5
+Imported last test.txt: 20000 x 5
+Imported motor connected unplugged 2.txt: 20000 x 5
+Imported motor connected unplugged.txt: 40000 x 5
+Imported motor constant 100 mV 2.txt: 10000 x 5
+Imported motor constant 100 mV.txt: 10000 x 5
+Imported motor constant 125 mV 2.txt: 10000 x 5
+Imported motor constant 125 mV.txt: 10000 x 5
+Imported motor constant 150 mV 2.txt: 10000 x 5
+Imported motor constant 150 mV.txt: 10000 x 5
+Imported motor constant 175 mV 2.txt: 10000 x 5
+Imported motor constant 175 mV.txt: 10000 x 5
+Imported motor constant 200 mV 2.txt: 10000 x 5
+Imported motor constant 200 mV.txt: 10000 x 5
+Imported motor constant 50 mV 2.txt: 10000 x 5
+Imported motor constant 50mV.txt: 10000 x 5
+Imported motor constant 75 mV 2.txt: 10000 x 5
+Imported motor constant 75 mV.txt: 10000 x 5
+Imported motor disconnected 2.txt: 40000 x 5
+Imported motor disconnected.txt: 40000 x 5
+Imported motor resistance 2.txt: 10000 x 5
+Imported motor resistance 20 hz.txt: 10000 x 5
+Imported motor resistance 20hz 2.txt: 10000 x 5
+Imported motor resistance.txt: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+SELECTED sums used below: Btr=0.00162, Btl=0.006804 N*m*s/rad
+
+Bb=0.00014991915; Bs=0.00147008085; Bm=0.00533391915 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687076 rad/s/V (8.58560 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.201772 N*m/rad; geometry multiplier=0.915054
+Initial RMS errors: 2.4782 dB, 28.6085 degrees
+Refined RMS errors: 1.6493 dB, 7.0528 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2162
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0514
+
+Including given Lm changes prediction by at most 0.0315 dB / 2.8827 deg in measured band.
+Refined resonance 5.69031 Hz; peak 2.6132; 1-Hz cost 10.2281 (rad/s/V)*(rad/s)
+    <strong>Parameter</strong>    <strong>FixedBandCostSensitivity</strong>    <strong>MovingBandCostSensitivity</strong>    <strong>PeakSensitivity</strong>    <strong>FrequencySensitivity</strong>
+    <strong>_________</strong>    <strong>________________________</strong>    <strong>_________________________</strong>    <strong>_______________</strong>    <strong>____________________</strong>
+
+     {'Km' }               0.73307                     0.73526                 0.49953            -0.0030623     
+     {'Rm' }               -0.8666                     -0.8677                 -0.7498             0.0015313     
+     {'Jm' }            -0.0012419                  0.00089873               0.0071483            -0.0029906     
+     {'Df' }               -3.2144                     -1.8763               -0.043113               -1.9782     
+     {'Lf' }              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'rho'}              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'Ds' }                1.3902                   -0.025968               -0.014507                2.0104     
+     {'Ls' }              -0.35196                   0.0064671               0.0036249               -0.5026     
+     {'Gs' }               0.35351                  -0.0064604              -0.0036252               0.50256     
+     {'Bs' }                -0.206                    -0.20494                -0.38721            -0.0014794     
+     {'Bb' }            -0.0053919                  -0.0053807               -0.010092           -1.5649e-05     
+     {'Bm' }              -0.18412                     -0.1826                -0.34522            -0.0021122     
+
+Df: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+Ds: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+    <strong>Parameter</strong>    <strong>InitialValue</strong>    <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>FixedCostReduction_pct</strong>    <strong>PassingGridPoints</strong>
+    <strong>_________</strong>    <strong>____________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>______________________</strong>    <strong>_________________</strong>
+
+     {'Rm'}           2.4947          3.9373      1.5783        5.6933              30.233                  33.394                      33.37                    42       
+     {'Bs'}        0.0014701       0.0046598      3.1698        5.6642                45.4                  30.518                     30.796                   101       
+     {'Bm'}        0.0053339        0.018256      3.4227        5.6457              45.055                  30.207                     30.739                   213       
+     {'Bb'}       0.00014992        0.012168      81.164        5.6691              44.627                  30.009                     30.229                    48       
+
+Proposals are model predictions on a finite search grid, not experimentally verified designs.
+Bb alone did not meet all three targets within the search range.
+     <strong>Parameter</strong>     <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>RippleReduction_pct</strong>    <strong>PeakRipple_rad_s</strong>    <strong>ShaftDamping_Nm_s_rad</strong>
+    <strong>___________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>___________________</strong>    <strong>________________</strong>    <strong>_____________________</strong>
+
+    {'Rm'     }        3.9373       1.5783        5.6933              30.233                  33.394                   34.719               0.10546               0.0014701      
+    {'Bs'     }      0.026881       18.285        4.9472              84.268                  75.015                   30.413               0.11241                0.026881      
+    {'Bm'     }      0.051519       9.6588        5.3961              72.581                  58.991                   30.408               0.11242               0.0014701      
+    {'Bb + Bs'}      0.012168       81.164        4.5674              85.563                   76.91                   30.218               0.11273                0.027702      
+
+
+Interpretation and report limits:
+1. Bb is an effective viscous approximation from the motor-uncoupled, two-flywheel test.
+2. Compare coastdown.csv RMSE columns before defending viscous versus Coulomb friction.
+3. Automatic ring-down results depend on the selected envelope. Inspect every ring plot.
+4. Held-out sweeps test transfer across these records; their shared setup limits independence.
+5. Check sweep_audit.csv for amplitude coverage and sweep direction. More tests may be needed.
+6. Df changes BOTH flywheel inertias; Ds changes K as Ds^4. Other properties are held fixed.
+7. K refinement is empirical; it does not independently establish a new shear modulus.
+8. Damping modifications and added series resistance have torque, heat and efficiency costs.
+9. Final 30% claims need a modified-hardware test, and transient reduction is a separate metric.
+10. Eraser 1, last test, 20-Hz impedance and connected-unplugged traces are retained as diagnostics.
+    Their filenames alone do not establish additional independent material coefficients.
+
+Saved tables, plots and workspace in /Users/paidsebs/Documents/me495/lab1 /data/ME495_results
+ME495 analysis: 18-Sep-2026 07:30:19
+Data folder: /Users/paidsebs/Documents/me495/lab1 /data
+Imported 1st measurement.txt: 155 x 12
+Imported 2nd measurement.txt: 21 x 12
+Imported 3rd.txt: 6 x 12
+Imported eraser 1.txt: 20000 x 5
+Imported eraser left side 1.txt: 20000 x 5
+Imported eraser left side 2.txt: 20000 x 5
+Imported eraser right side 1.txt: 20000 x 5
+Imported eraser right side 2.txt: 20000 x 5
+Imported last test.txt: 20000 x 5
+Imported motor connected unplugged 2.txt: 20000 x 5
+Imported motor connected unplugged.txt: 40000 x 5
+Imported motor constant 100 mV 2.txt: 10000 x 5
+Imported motor constant 100 mV.txt: 10000 x 5
+Imported motor constant 125 mV 2.txt: 10000 x 5
+Imported motor constant 125 mV.txt: 10000 x 5
+Imported motor constant 150 mV 2.txt: 10000 x 5
+Imported motor constant 150 mV.txt: 10000 x 5
+Imported motor constant 175 mV 2.txt: 10000 x 5
+Imported motor constant 175 mV.txt: 10000 x 5
+Imported motor constant 200 mV 2.txt: 10000 x 5
+Imported motor constant 200 mV.txt: 10000 x 5
+Imported motor constant 50 mV 2.txt: 10000 x 5
+Imported motor constant 50mV.txt: 10000 x 5
+Imported motor constant 75 mV 2.txt: 10000 x 5
+Imported motor constant 75 mV.txt: 10000 x 5
+Imported motor disconnected 2.txt: 40000 x 5
+Imported motor disconnected.txt: 40000 x 5
+Imported motor resistance 2.txt: 10000 x 5
+Imported motor resistance 20 hz.txt: 10000 x 5
+Imported motor resistance 20hz 2.txt: 10000 x 5
+Imported motor resistance.txt: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+SELECTED sums used below: Btr=0.00162, Btl=0.006804 N*m*s/rad
+
+Bb=0.00014991915; Bs=0.00147008085; Bm=0.00533391915 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687076 rad/s/V (8.58560 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.201772 N*m/rad; geometry multiplier=0.915054
+Initial RMS errors: 2.4782 dB, 28.6085 degrees
+Refined RMS errors: 1.6493 dB, 7.0528 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2162
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0514
+
+Including given Lm changes prediction by at most 0.0315 dB / 2.8827 deg in measured band.
+Refined resonance 5.69031 Hz; peak 2.6132; 1-Hz cost 10.2281 (rad/s/V)*(rad/s)
+    <strong>Parameter</strong>    <strong>FixedBandCostSensitivity</strong>    <strong>MovingBandCostSensitivity</strong>    <strong>PeakSensitivity</strong>    <strong>FrequencySensitivity</strong>
+    <strong>_________</strong>    <strong>________________________</strong>    <strong>_________________________</strong>    <strong>_______________</strong>    <strong>____________________</strong>
+
+     {'Km' }               0.73307                     0.73526                 0.49953            -0.0030623     
+     {'Rm' }               -0.8666                     -0.8677                 -0.7498             0.0015313     
+     {'Jm' }            -0.0012419                  0.00089873               0.0071483            -0.0029906     
+     {'Df' }               -3.2144                     -1.8763               -0.043113               -1.9782     
+     {'Lf' }              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'rho'}              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'Ds' }                1.3902                   -0.025968               -0.014507                2.0104     
+     {'Ls' }              -0.35196                   0.0064671               0.0036249               -0.5026     
+     {'Gs' }               0.35351                  -0.0064604              -0.0036252               0.50256     
+     {'Bs' }                -0.206                    -0.20494                -0.38721            -0.0014794     
+     {'Bb' }            -0.0053919                  -0.0053807               -0.010092           -1.5649e-05     
+     {'Bm' }              -0.18412                     -0.1826                -0.34522            -0.0021122     
+
+Df: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+Ds: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+    <strong>Parameter</strong>    <strong>InitialValue</strong>    <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>FixedCostReduction_pct</strong>    <strong>PassingGridPoints</strong>
+    <strong>_________</strong>    <strong>____________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>______________________</strong>    <strong>_________________</strong>
+
+     {'Rm'}           2.4947          3.9373      1.5783        5.6933              30.233                  33.394                      33.37                    42       
+     {'Bs'}        0.0014701       0.0046598      3.1698        5.6642                45.4                  30.518                     30.796                   101       
+     {'Bm'}        0.0053339        0.018256      3.4227        5.6457              45.055                  30.207                     30.739                   213       
+     {'Bb'}       0.00014992        0.012168      81.164        5.6691              44.627                  30.009                     30.229                    48       
+
+Proposals are model predictions on a finite search grid, not experimentally verified designs.
+Bb alone did not meet all three targets within the search range.
+     <strong>Parameter</strong>     <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>RippleReduction_pct</strong>    <strong>PeakRipple_rad_s</strong>    <strong>ShaftDamping_Nm_s_rad</strong>
+    <strong>___________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>___________________</strong>    <strong>________________</strong>    <strong>_____________________</strong>
+
+    {'Rm'     }        3.9373       1.5783        5.6933              30.233                  33.394                   34.719               0.10546               0.0014701      
+    {'Bs'     }      0.026881       18.285        4.9472              84.268                  75.015                   30.413               0.11241                0.026881      
+    {'Bm'     }      0.051519       9.6588        5.3961              72.581                  58.991                   30.408               0.11242               0.0014701      
+    {'Bb + Bs'}      0.012168       81.164        4.5674              85.563                   76.91                   30.218               0.11273                0.027702      
+
+
+Interpretation and report limits:
+1. Bb is an effective viscous approximation from the motor-uncoupled, two-flywheel test.
+2. Compare coastdown.csv RMSE columns before defending viscous versus Coulomb friction.
+3. Automatic ring-down results depend on the selected envelope. Inspect every ring plot.
+4. Held-out sweeps test transfer across these records; their shared setup limits independence.
+5. Check sweep_audit.csv for amplitude coverage and sweep direction. More tests may be needed.
+6. Df changes BOTH flywheel inertias; Ds changes K as Ds^4. Other properties are held fixed.
+7. K refinement is empirical; it does not independently establish a new shear modulus.
+8. Damping modifications and added series resistance have torque, heat and efficiency costs.
+9. Final 30% claims need a modified-hardware test, and transient reduction is a separate metric.
+10. Eraser 1, last test, 20-Hz impedance and connected-unplugged traces are retained as diagnostics.
+    Their filenames alone do not establish additional independent material coefficients.
+
+Saved tables, plots and workspace in /Users/paidsebs/Documents/me495/lab1 /data/ME495_results
+ME495 analysis: 19-Sep-2026 15:58:35
+Data folder: /Users/paidsebs/Documents/me495/lab1 /data
+Imported 1st measurement.txt: 155 x 12
+Imported 2nd measurement.txt: 21 x 12
+Imported 3rd.txt: 6 x 12
+Imported eraser 1.txt: 20000 x 5
+Imported eraser left side 1.txt: 20000 x 5
+Imported eraser left side 2.txt: 20000 x 5
+Imported eraser right side 1.txt: 20000 x 5
+Imported eraser right side 2.txt: 20000 x 5
+Imported last test.txt: 20000 x 5
+Imported motor connected unplugged 2.txt: 20000 x 5
+Imported motor connected unplugged.txt: 40000 x 5
+Imported motor constant 100 mV 2.txt: 10000 x 5
+Imported motor constant 100 mV.txt: 10000 x 5
+Imported motor constant 125 mV 2.txt: 10000 x 5
+Imported motor constant 125 mV.txt: 10000 x 5
+Imported motor constant 150 mV 2.txt: 10000 x 5
+Imported motor constant 150 mV.txt: 10000 x 5
+Imported motor constant 175 mV 2.txt: 10000 x 5
+Imported motor constant 175 mV.txt: 10000 x 5
+Imported motor constant 200 mV 2.txt: 10000 x 5
+Imported motor constant 200 mV.txt: 10000 x 5
+Imported motor constant 50 mV 2.txt: 10000 x 5
+Imported motor constant 50mV.txt: 10000 x 5
+Imported motor constant 75 mV 2.txt: 10000 x 5
+Imported motor constant 75 mV.txt: 10000 x 5
+Imported motor disconnected 2.txt: 40000 x 5
+Imported motor disconnected.txt: 40000 x 5
+Imported motor resistance 2.txt: 10000 x 5
+Imported motor resistance 20 hz.txt: 10000 x 5
+Imported motor resistance 20hz 2.txt: 10000 x 5
+Imported motor resistance.txt: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+SELECTED sums used below: Btr=0.00162, Btl=0.006804 N*m*s/rad
+
+Bb=0.00014991915; Bs=0.00147008085; Bm=0.00533391915 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687076 rad/s/V (8.58560 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.201772 N*m/rad; geometry multiplier=0.915054
+Initial RMS errors: 2.4782 dB, 28.6085 degrees
+Refined RMS errors: 1.6493 dB, 7.0528 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2162
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0514
+
+Including given Lm changes prediction by at most 0.0315 dB / 2.8827 deg in measured band.
+Refined resonance 5.69031 Hz; peak 2.6132; 1-Hz cost 10.2281 (rad/s/V)*(rad/s)
+    <strong>Parameter</strong>    <strong>FixedBandCostSensitivity</strong>    <strong>MovingBandCostSensitivity</strong>    <strong>PeakSensitivity</strong>    <strong>FrequencySensitivity</strong>
+    <strong>_________</strong>    <strong>________________________</strong>    <strong>_________________________</strong>    <strong>_______________</strong>    <strong>____________________</strong>
+
+     {'Km' }               0.73307                     0.73526                 0.49953            -0.0030623     
+     {'Rm' }               -0.8666                     -0.8677                 -0.7498             0.0015313     
+     {'Jm' }            -0.0012419                  0.00089873               0.0071483            -0.0029906     
+     {'Df' }               -3.2144                     -1.8763               -0.043113               -1.9782     
+     {'Lf' }              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'rho'}              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'Ds' }                1.3902                   -0.025968               -0.014507                2.0104     
+     {'Ls' }              -0.35196                   0.0064671               0.0036249               -0.5026     
+     {'Gs' }               0.35351                  -0.0064604              -0.0036252               0.50256     
+     {'Bs' }                -0.206                    -0.20494                -0.38721            -0.0014794     
+     {'Bb' }            -0.0053919                  -0.0053807               -0.010092           -1.5649e-05     
+     {'Bm' }              -0.18412                     -0.1826                -0.34522            -0.0021122     
+
+Df: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+Ds: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+    <strong>Parameter</strong>    <strong>InitialValue</strong>    <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>FixedCostReduction_pct</strong>    <strong>PassingGridPoints</strong>
+    <strong>_________</strong>    <strong>____________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>______________________</strong>    <strong>_________________</strong>
+
+     {'Rm'}           2.4947          3.9373      1.5783        5.6933              30.233                  33.394                      33.37                    42       
+     {'Bs'}        0.0014701       0.0046598      3.1698        5.6642                45.4                  30.518                     30.796                   101       
+     {'Bm'}        0.0053339        0.018256      3.4227        5.6457              45.055                  30.207                     30.739                   213       
+     {'Bb'}       0.00014992        0.012168      81.164        5.6691              44.627                  30.009                     30.229                    48       
+
+Proposals are model predictions on a finite search grid, not experimentally verified designs.
+Bb alone did not meet all three targets within the search range.
+     <strong>Parameter</strong>     <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>RippleReduction_pct</strong>    <strong>PeakRipple_rad_s</strong>    <strong>ShaftDamping_Nm_s_rad</strong>
+    <strong>___________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>___________________</strong>    <strong>________________</strong>    <strong>_____________________</strong>
+
+    {'Rm'     }        3.9373       1.5783        5.6933              30.233                  33.394                   34.719               0.10546               0.0014701      
+    {'Bs'     }      0.026881       18.285        4.9472              84.268                  75.015                   30.413               0.11241                0.026881      
+    {'Bm'     }      0.051519       9.6588        5.3961              72.581                  58.991                   30.408               0.11242               0.0014701      
+    {'Bb + Bs'}      0.012168       81.164        4.5674              85.563                   76.91                   30.218               0.11273                0.027702      
+
+
+Interpretation and report limits:
+1. Bb is an effective viscous approximation from the motor-uncoupled, two-flywheel test.
+2. Compare coastdown.csv RMSE columns before defending viscous versus Coulomb friction.
+3. Automatic ring-down results depend on the selected envelope. Inspect every ring plot.
+4. Held-out sweeps test transfer across these records; their shared setup limits independence.
+5. Check sweep_audit.csv for amplitude coverage and sweep direction. More tests may be needed.
+6. Df changes BOTH flywheel inertias; Ds changes K as Ds^4. Other properties are held fixed.
+7. K refinement is empirical; it does not independently establish a new shear modulus.
+8. Damping modifications and added series resistance have torque, heat and efficiency costs.
+9. Final 30% claims need a modified-hardware test, and transient reduction is a separate metric.
+10. Eraser 1, last test, 20-Hz impedance and connected-unplugged traces are retained as diagnostics.
+    Their filenames alone do not establish additional independent material coefficients.
+
+Saved tables, plots and workspace in /Users/paidsebs/Documents/me495/lab1 /data/ME495_results
+ME495 analysis: 21-Sep-2026 08:18:14
+Data folder: /Users/paidsebs/Documents/me495/lab1 /data
+Imported 1st measurement.txt: 155 x 12
+Imported 2nd measurement.txt: 21 x 12
+Imported 3rd.txt: 6 x 12
+Imported eraser 1.txt: 20000 x 5
+Imported eraser left side 1.txt: 20000 x 5
+Imported eraser left side 2.txt: 20000 x 5
+Imported eraser right side 1.txt: 20000 x 5
+Imported eraser right side 2.txt: 20000 x 5
+Imported last test.txt: 20000 x 5
+Imported motor connected unplugged 2.txt: 20000 x 5
+Imported motor connected unplugged.txt: 40000 x 5
+Imported motor constant 100 mV 2.txt: 10000 x 5
+Imported motor constant 100 mV.txt: 10000 x 5
+Imported motor constant 125 mV 2.txt: 10000 x 5
+Imported motor constant 125 mV.txt: 10000 x 5
+Imported motor constant 150 mV 2.txt: 10000 x 5
+Imported motor constant 150 mV.txt: 10000 x 5
+Imported motor constant 175 mV 2.txt: 10000 x 5
+Imported motor constant 175 mV.txt: 10000 x 5
+Imported motor constant 200 mV 2.txt: 10000 x 5
+Imported motor constant 200 mV.txt: 10000 x 5
+Imported motor constant 50 mV 2.txt: 10000 x 5
+Imported motor constant 50mV.txt: 10000 x 5
+Imported motor constant 75 mV 2.txt: 10000 x 5
+Imported motor constant 75 mV.txt: 10000 x 5
+Imported motor disconnected 2.txt: 40000 x 5
+Imported motor disconnected.txt: 40000 x 5
+Imported motor resistance 2.txt: 10000 x 5
+Imported motor resistance 20 hz.txt: 10000 x 5
+Imported motor resistance 20hz 2.txt: 10000 x 5
+Imported motor resistance.txt: 10000 x 5
+
+Imported 3 distinct sweeps and 28 distinct time histories.
+Jf=0.003406180718 kg*m^2; Jc=0.003448480718 kg*m^2; geometric K=2.406167807 N*m/rad
+Motor model: Rm=2.494729 ohm; Km=0.098213668; intercept=0.135497 V; R2=0.999813
+Automatic diagnostic sums: Btr=0.0014288159, Btl=0.0078077183
+SELECTED sums used below: Btr=0.00162, Btl=0.006804 N*m*s/rad
+
+Bb=0.00014991915; Bs=0.00147008085; Bm=0.00533391915 N*m*s/rad
+Coulomb torque is in N*m; it is NOT substituted into a viscous coefficient.
+Measured peak: 2.687076 rad/s/V (8.58560 dB) at 5.650100 Hz
+K initial=2.406168; refined K=2.201772 N*m/rad; geometry multiplier=0.915054
+Initial RMS errors: 2.4782 dB, 28.6085 degrees
+Refined RMS errors: 1.6493 dB, 7.0528 degrees
+These are fit residuals, not proof of independent experimental validation.
+Refined numerator coefficients:
+    0.0001    0.2162
+
+Refined denominator coefficients:
+    0.0000    0.0001    0.0377    0.0514
+
+Including given Lm changes prediction by at most 0.0315 dB / 2.8827 deg in measured band.
+Refined resonance 5.69031 Hz; peak 2.6132; 1-Hz cost 10.2281 (rad/s/V)*(rad/s)
+    <strong>Parameter</strong>    <strong>FixedBandCostSensitivity</strong>    <strong>MovingBandCostSensitivity</strong>    <strong>PeakSensitivity</strong>    <strong>FrequencySensitivity</strong>
+    <strong>_________</strong>    <strong>________________________</strong>    <strong>_________________________</strong>    <strong>_______________</strong>    <strong>____________________</strong>
+
+     {'Km' }               0.73307                     0.73526                 0.49953            -0.0030623     
+     {'Rm' }               -0.8666                     -0.8677                 -0.7498             0.0015313     
+     {'Jm' }            -0.0012419                  0.00089873               0.0071483            -0.0029906     
+     {'Df' }               -3.2144                     -1.8763               -0.043113               -1.9782     
+     {'Lf' }              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'rho'}              -0.82134                    -0.46917               -0.010774              -0.49445     
+     {'Ds' }                1.3902                   -0.025968               -0.014507                2.0104     
+     {'Ls' }              -0.35196                   0.0064671               0.0036249               -0.5026     
+     {'Gs' }               0.35351                  -0.0064604              -0.0036252               0.50256     
+     {'Bs' }                -0.206                    -0.20494                -0.38721            -0.0014794     
+     {'Bb' }            -0.0053919                  -0.0053807               -0.010092           -1.5649e-05     
+     {'Bm' }              -0.18412                     -0.1826                -0.34522            -0.0021122     
+
+Df: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+Ds: no design in searched range reduced BOTH moving peak and moving-band cost by 30%.
+    <strong>Parameter</strong>    <strong>InitialValue</strong>    <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>FixedCostReduction_pct</strong>    <strong>PassingGridPoints</strong>
+    <strong>_________</strong>    <strong>____________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>______________________</strong>    <strong>_________________</strong>
+
+     {'Rm'}           2.4947          3.9373      1.5783        5.6933              30.233                  33.394                      33.37                    42       
+     {'Bs'}        0.0014701       0.0046598      3.1698        5.6642                45.4                  30.518                     30.796                   101       
+     {'Bm'}        0.0053339        0.018256      3.4227        5.6457              45.055                  30.207                     30.739                   213       
+     {'Bb'}       0.00014992        0.012168      81.164        5.6691              44.627                  30.009                     30.229                    48       
+
+Proposals are model predictions on a finite search grid, not experimentally verified designs.
+Bb alone did not meet all three targets within the search range.
+     <strong>Parameter</strong>     <strong>ProposedValue</strong>    <strong>Factor</strong>    <strong>NewResonance_Hz</strong>    <strong>PeakReduction_pct</strong>    <strong>MovingCostReduction_pct</strong>    <strong>RippleReduction_pct</strong>    <strong>PeakRipple_rad_s</strong>    <strong>ShaftDamping_Nm_s_rad</strong>
+    <strong>___________</strong>    <strong>_____________</strong>    <strong>______</strong>    <strong>_______________</strong>    <strong>_________________</strong>    <strong>_______________________</strong>    <strong>___________________</strong>    <strong>________________</strong>    <strong>_____________________</strong>
+
+    {'Rm'     }        3.9373       1.5783        5.6933              30.233                  33.394                   34.719               0.10546               0.0014701      
+    {'Bs'     }      0.026881       18.285        4.9472              84.268                  75.015                   30.413               0.11241                0.026881      
+    {'Bm'     }      0.051519       9.6588        5.3961              72.581                  58.991                   30.408               0.11242               0.0014701      
+    {'Bb + Bs'}      0.012168       81.164        4.5674              85.563                   76.91                   30.218               0.11273                0.027702      
+
+
+Interpretation and report limits:
+1. Bb is an effective viscous approximation from the motor-uncoupled, two-flywheel test.
+2. Compare coastdown.csv RMSE columns before defending viscous versus Coulomb friction.
+3. Automatic ring-down results depend on the selected envelope. Inspect every ring plot.
+4. Held-out sweeps test transfer across these records; their shared setup limits independence.
+5. Check sweep_audit.csv for amplitude coverage and sweep direction. More tests may be needed.
+6. Df changes BOTH flywheel inertias; Ds changes K as Ds^4. Other properties are held fixed.
+7. K refinement is empirical; it does not independently establish a new shear modulus.
+8. Damping modifications and added series resistance have torque, heat and efficiency costs.
+9. Final 30% claims need a modified-hardware test, and transient reduction is a separate metric.
+10. Eraser 1, last test, 20-Hz impedance and connected-unplugged traces are retained as diagnostics.
+    Their filenames alone do not establish additional independent material coefficients.
+
+Saved tables, plots and workspace in /Users/paidsebs/Documents/me495/lab1 /data/ME495_results

@@ -1,0 +1,4 @@
+File,Rows,MinHz,MaxHz,MinInputAmplitude_V,MaxInputAmplitude_V,DownwardFrequencySteps,AmplitudeConsistency_dB
+1st measurement.txt,155,3.999,10.0001,1.7205,1.755,0,0.00413676702161325
+2nd measurement.txt,21,5.0002,7.0001,1.7253,1.7506,0,0.000611278302001139
+3rd.txt,6,5.5002,5.7494,1.738,1.7575,0,0.000269217677241862

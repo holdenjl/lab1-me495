@@ -1,0 +1,411 @@
+{
+  "generated": "20260921T152134",
+  "matlabVersion": "26.1.0.3346908 (R2026a) Update 5",
+  "parameters": {
+    "Km": 0.098213668159154208,
+    "Rm": 2.4947290390683143,
+    "Lm": 0.002,
+    "Jm": 4.23E-5,
+    "Df": 0.137,
+    "Lf": 0.0127,
+    "rho": 7755,
+    "Ds": 0.00318,
+    "Ls": 0.305,
+    "Gs": 7.31E+10,
+    "Bs": 0.0012716087708161809,
+    "Bb": 0.00015720711642144651,
+    "Bm": 0.00653610951658049,
+    "scaleK": 0.91552433059577676
+  },
+  "Jf": 0.0034061807178500311,
+  "Jc": 0.003448480717850031,
+  "K_geometry": 2.4061678070617227,
+  "K_refined": 2.2029051708612917,
+  "Btr": 0.0014288158872376275,
+  "Btl": 0.0078077182873966715,
+  "motorOffset": 0.13549699373935184,
+  "motorR2": 0.99981349124590546,
+  "sweepCount": 3,
+  "timeRecordCount": 28,
+  "rawSweepRows": 182,
+  "frequencyBins": 44,
+  "frequencyRange": [
+    4.0001,
+    9.999979999999999
+  ],
+  "measuredPeak": 2.6871123755334279,
+  "measuredResonance": 5.6501,
+  "modelResonance": 5.6901319706941145,
+  "modelPeak": 2.5470911874202962,
+  "modelCost": 10.089905346750673,
+  "baselineRipple": 0.14670974376122672,
+  "baselineDCGain": 3.7281319015479637,
+  "initialMagnitudeRMSE": 2.4560264863077186,
+  "initialPhaseRMSE": 28.382600855794795,
+  "refinedMagnitudeRMSE": 1.6515900797300489,
+  "refinedPhaseRMSE": 7.0173946017927173,
+  "resonanceRegionMagnitudeRMSE": 0.7881758394270888,
+  "noiseValidation": {
+    "segments": 9,
+    "df_Hz": 0.50000000000005507,
+    "coherenceThreshold": 0.8,
+    "binsUsed": 9,
+    "magnitudeRMSE_dB": 2.6865646560433278,
+    "phaseRMSE_deg": 8.9768964129378261
+  },
+  "designs": [
+    {
+      "Parameter": "Rm",
+      "Option": "Added series resistance",
+      "Baseline": 2.4947290390683143,
+      "Proposed": 4.1000000000000005,
+      "Factor": 1.6434650560411936,
+      "Change_pct": 64.346505604119358,
+      "Resonance_Hz": 5.6935512255429312,
+      "PeakReduction_pct": 32.730105643575392,
+      "MovingCostReduction_pct": 35.87073486754565,
+      "FixedCostReduction_pct": 35.844297725538866,
+      "TransientReduction_pct": 38.541250879336332,
+      "OpenOffReduction_pct": 38.541250879336332,
+      "DCGainRatio": 0.71029887389334978,
+      "EqualSpeedTransientReduction_pct": 13.474804227422165,
+      "LocalResonanceExists": true
+    },
+    {
+      "Parameter": "Km",
+      "Option": "Lower motor constant",
+      "Baseline": 0.098213668159154208,
+      "Proposed": 0.053,
+      "Factor": 0.53963975680160992,
+      "Change_pct": -46.036024319839008,
+      "Resonance_Hz": 5.6960139503475586,
+      "PeakReduction_pct": 34.7418918891507,
+      "MovingCostReduction_pct": 40.498977443824543,
+      "FixedCostReduction_pct": 40.4584718649289,
+      "TransientReduction_pct": 45.049775534290404,
+      "OpenOffReduction_pct": 45.049775534290404,
+      "DCGainRatio": 0.72877566620440981,
+      "EqualSpeedTransientReduction_pct": 24.599260082461448,
+      "LocalResonanceExists": true
+    },
+    {
+      "Parameter": "Bs",
+      "Option": "Shaft-path damper",
+      "Baseline": 0.0012716087708161809,
+      "Proposed": 0.039,
+      "Factor": 30.66981047556623,
+      "Change_pct": 2966.9810475566228,
+      "Resonance_Hz": null,
+      "PeakReduction_pct": 85.885686195375783,
+      "MovingCostReduction_pct": 82.565095106867176,
+      "FixedCostReduction_pct": 82.565095106867176,
+      "TransientReduction_pct": 32.155007355255705,
+      "OpenOffReduction_pct": 32.164261799553159,
+      "DCGainRatio": 0.99999999999999978,
+      "EqualSpeedTransientReduction_pct": 32.155007355255691,
+      "LocalResonanceExists": false
+    },
+    {
+      "Parameter": "Bm",
+      "Option": "Motor-side damper",
+      "Baseline": 0.00653610951658049,
+      "Proposed": 0.077,
+      "Factor": 11.780708356350223,
+      "Change_pct": 1078.0708356350224,
+      "Resonance_Hz": 5.1109578683974792,
+      "PeakReduction_pct": 77.631901787873673,
+      "MovingCostReduction_pct": 65.937732263721728,
+      "FixedCostReduction_pct": 71.352131439829122,
+      "TransientReduction_pct": 32.221322054408134,
+      "OpenOffReduction_pct": 32.221322061458743,
+      "DCGainRatio": 0.13033019725439807,
+      "EqualSpeedTransientReduction_pct": -420.05352077608882,
+      "LocalResonanceExists": true
+    }
+  ],
+  "sensitivity": [
+    {
+      "Parameter": "Km",
+      "FixedBandCostSensitivity": 0.7373832542909291,
+      "MovingBandCostSensitivity": 0.73983532324624723,
+      "PeakSensitivity": 0.51313160290873694,
+      "FrequencySensitivity": -0.0034073104198819515
+    },
+    {
+      "Parameter": "Rm",
+      "FixedBandCostSensitivity": -0.86875785555284379,
+      "MovingBandCostSensitivity": -0.86993129132032532,
+      "PeakSensitivity": -0.75660342460588315,
+      "FrequencySensitivity": 0.0016309109634677816
+    },
+    {
+      "Parameter": "Jm",
+      "FixedBandCostSensitivity": -0.00077706426759153872,
+      "MovingBandCostSensitivity": 0.0013677854128957953,
+      "PeakSensitivity": 0.00788475728756781,
+      "FrequencySensitivity": -0.0029816700733333104
+    },
+    {
+      "Parameter": "Df",
+      "FixedBandCostSensitivity": -3.2007572168636278,
+      "MovingBandCostSensitivity": -1.8562887679177547,
+      "PeakSensitivity": -0.048240280728287586,
+      "FrequencySensitivity": -1.9770257175162755
+    },
+    {
+      "Parameter": "Lf",
+      "FixedBandCostSensitivity": -0.81789317632279079,
+      "MovingBandCostSensitivity": -0.46408377105934334,
+      "PeakSensitivity": -0.012055477612303113,
+      "FrequencySensitivity": -0.49427904926989835
+    },
+    {
+      "Parameter": "rho",
+      "FixedBandCostSensitivity": -0.81789317632279079,
+      "MovingBandCostSensitivity": -0.46408377105934334,
+      "PeakSensitivity": -0.012055477612285679,
+      "FrequencySensitivity": -0.49427904926991395
+    },
+    {
+      "Parameter": "Ds",
+      "FixedBandCostSensitivity": 1.3960100364347905,
+      "MovingBandCostSensitivity": -0.027776482646643879,
+      "PeakSensitivity": -0.016686161020243281,
+      "FrequencySensitivity": 2.0117033748920248
+    },
+    {
+      "Parameter": "Ls",
+      "FixedBandCostSensitivity": -0.3535229559293937,
+      "MovingBandCostSensitivity": 0.0068867543649084361,
+      "PeakSensitivity": 0.0041694826010829876,
+      "FrequencySensitivity": -0.50288140796751069
+    },
+    {
+      "Parameter": "Gs",
+      "FixedBandCostSensitivity": 0.35507570579751851,
+      "MovingBandCostSensitivity": -0.0068804381812291775,
+      "PeakSensitivity": -0.00416991739509266,
+      "FrequencySensitivity": 0.502846662220013
+    },
+    {
+      "Parameter": "Bs",
+      "FixedBandCostSensitivity": -0.17559623863939203,
+      "MovingBandCostSensitivity": -0.17465136912789969,
+      "PeakSensitivity": -0.3263786915512179,
+      "FrequencySensitivity": -0.00131351501679806
+    },
+    {
+      "Parameter": "Bb",
+      "FixedBandCostSensitivity": -0.005580097593743491,
+      "MovingBandCostSensitivity": -0.005569778356080286,
+      "PeakSensitivity": -0.010325609426094352,
+      "FrequencySensitivity": -1.4345318971282554E-5
+    },
+    {
+      "Parameter": "Bm",
+      "FixedBandCostSensitivity": -0.22196906109393266,
+      "MovingBandCostSensitivity": -0.21998611936190479,
+      "PeakSensitivity": -0.41152731326600256,
+      "FrequencySensitivity": -0.0027565938482714265
+    }
+  ],
+  "ringdown": [
+    {
+      "File": "Distal Bearing +Shaft Damping 2",
+      "Combination": "Btr",
+      "Alpha_per_s": 0.219609743266913,
+      "DampedFrequency_Hz": 4.04858299595142,
+      "Zeta": 0.00863281641889692,
+      "B_Nm_s_rad": 0.00149606094593551,
+      "LogEnvelope_R2": 0.980996225089788,
+      "ExtremaUsed": 65
+    },
+    {
+      "File": "Distal Bearing Damping +Shaft 1 (eraser left side)_",
+      "Combination": "Btr",
+      "Alpha_per_s": 0.199867673110304,
+      "DampedFrequency_Hz": 4.04858299595142,
+      "Zeta": 0.00785680974098952,
+      "B_Nm_s_rad": 0.00136157082853974,
+      "LogEnvelope_R2": 0.989330117662809,
+      "ExtremaUsed": 65
+    },
+    {
+      "File": "Motor + Shaft Damping 1 (eraser right side)",
+      "Combination": "Btl",
+      "Alpha_per_s": 1.17658143244292,
+      "DampedFrequency_Hz": 4,
+      "Zeta": 0.0467634720137212,
+      "B_Nm_s_rad": 0.00811483676551958,
+      "LogEnvelope_R2": 0.980415904543209,
+      "ExtremaUsed": 12
+    },
+    {
+      "File": "Motor + Shaft Damping 2",
+      "Combination": "Btl",
+      "Alpha_per_s": 1.0875223646241,
+      "DampedFrequency_Hz": 4.01606425702811,
+      "Zeta": 0.0430580850491761,
+      "B_Nm_s_rad": 0.00750059980927376,
+      "LogEnvelope_R2": 0.980476261313839,
+      "ExtremaUsed": 14
+    }
+  ],
+  "coastdown": [
+    {
+      "File": "motor disconnected",
+      "Alpha_per_s": 0.023510037199782,
+      "EffectiveBb_Nm_s_rad": 0.000160158870771669,
+      "CoulombTorque_Nm": 0.00157455747688728,
+      "ViscousRMSE_rad_s": 0.214568315989757,
+      "CoulombRMSE_rad_s": 0.209490500673393,
+      "LinearSlope_rad_s2": -0.231132404196265,
+      "Samples": 31001,
+      "FitStart_s": 4,
+      "FitEnd_s": 19.5
+    },
+    {
+      "File": "motor disconnected 2",
+      "Alpha_per_s": 0.0226434494891671,
+      "EffectiveBb_Nm_s_rad": 0.000154255362071224,
+      "CoulombTorque_Nm": 0.0015476178463712,
+      "ViscousRMSE_rad_s": 0.19012860969589,
+      "CoulombRMSE_rad_s": 0.185145274288109,
+      "LinearSlope_rad_s2": -0.227177882585756,
+      "Samples": 31001,
+      "FitStart_s": 4,
+      "FitEnd_s": 19.5
+    }
+  ],
+  "heldOut": [
+    {
+      "HeldOutSweep": "Freq Sweep 4-10Hz",
+      "FittedK": 2.19407443581831,
+      "MagnitudeRMSE_dB": 1.83234634778008,
+      "PhaseRMSE_deg": 5.03209044852727
+    },
+    {
+      "HeldOutSweep": "Freq Sweep 5-7Hz",
+      "FittedK": 2.19606492362863,
+      "MagnitudeRMSE_dB": 1.65866614887033,
+      "PhaseRMSE_deg": 7.14663015668055
+    },
+    {
+      "HeldOutSweep": "Freq Sweep 5.4-5.8Hz",
+      "FittedK": 2.21850859208741,
+      "MagnitudeRMSE_dB": 0.892247680749781,
+      "PhaseRMSE_deg": 17.4708854180517
+    }
+  ],
+  "maxInductanceDifference_dB": 0.030902937881281279,
+  "maxInductanceDifference_deg": 2.8823986042698557,
+  "physicalDesigns": [
+    {
+      "ID": "resistor",
+      "Option": "Series resistor",
+      "Resonance_Hz": 5.6935448078324384,
+      "PeakGain_rad_s_V": 1.7152683606376062,
+      "PeakReduction_pct": 32.657756066643351,
+      "MovingCostReduction_pct": 35.795146742438142,
+      "TransientReduction_pct": 38.461026663554954,
+      "DCGainRatio": 0.71097518430546713,
+      "EqualSpeedTransientReduction_pct": 13.444273872145295,
+      "OpenOffReduction_pct": 38.461026663554954,
+      "DriveInertia_kg_m2": 0.003448480717850031,
+      "LoadInertia_kg_m2": 0.0034061807178500311,
+      "Stiffness_Nm_rad": 2.2029051708612917,
+      "PeakCurrent_A_per_V": 0.24364681952642114,
+      "PeakMotorSpeed_rad_s_per_V": 2.6371648712692561,
+      "PeakTwist_rad_per_V": 0.0098174667843902771,
+      "LocalResonanceExists": true,
+      "FullInductancePeakReduction_pct": 32.625197886596915
+    },
+    {
+      "ID": "distal",
+      "Option": "Larger distal wheel + shaft",
+      "Resonance_Hz": 9.7922182347551558,
+      "PeakGain_rad_s_V": 1.4341382361091191,
+      "PeakReduction_pct": 43.695057201245326,
+      "MovingCostReduction_pct": 40.32226114425378,
+      "TransientReduction_pct": 39.458917152863627,
+      "DCGainRatio": 1,
+      "EqualSpeedTransientReduction_pct": 39.458917152863634,
+      "OpenOffReduction_pct": 39.458917152863627,
+      "DriveInertia_kg_m2": 0.003448480717850031,
+      "LoadInertia_kg_m2": 0.0071667324951897263,
+      "Stiffness_Nm_rad": 8.8335928344270815,
+      "PeakCurrent_A_per_V": 0.39870009768342873,
+      "PeakMotorSpeed_rad_s_per_V": 3.6591801347685964,
+      "PeakTwist_rad_per_V": 0.005684579997328772,
+      "LocalResonanceExists": true,
+      "FullInductancePeakReduction_pct": 43.722500760898178
+    },
+    {
+      "ID": "motorwheel",
+      "Option": "Smaller motor wheel + shaft",
+      "Resonance_Hz": 49.899436414639986,
+      "PeakGain_rad_s_V": 1.1028901375132729,
+      "PeakReduction_pct": 56.700013609238532,
+      "MovingCostReduction_pct": 37.2528848703849,
+      "TransientReduction_pct": 66.554748468887524,
+      "DCGainRatio": 0.99999999999999978,
+      "EqualSpeedTransientReduction_pct": 66.55474846888751,
+      "OpenOffReduction_pct": 66.554771604354528,
+      "DriveInertia_kg_m2": 0.0012175834315245222,
+      "LoadInertia_kg_m2": 0.0034061807178500311,
+      "Stiffness_Nm_rad": 88.2362962958411,
+      "PeakCurrent_A_per_V": 0.39883646326462907,
+      "PeakMotorSpeed_rad_s_per_V": 3.7277321390373963,
+      "PeakTwist_rad_per_V": 0.00062878519170719231,
+      "LocalResonanceExists": true,
+      "FullInductancePeakReduction_pct": 57.296576966523318
+    },
+    {
+      "ID": "oildamper",
+      "Option": "Motor-side oil damper",
+      "Resonance_Hz": 5.0138682157977268,
+      "PeakGain_rad_s_V": 0.54844126395106885,
+      "PeakReduction_pct": 78.467937596433984,
+      "MovingCostReduction_pct": 67.114905567982674,
+      "TransientReduction_pct": 35.161006941972282,
+      "DCGainRatio": 0.11871009766830067,
+      "EqualSpeedTransientReduction_pct": -446.19610573651948,
+      "OpenOffReduction_pct": 35.161006941972282,
+      "DriveInertia_kg_m2": 0.0035108349015763258,
+      "LoadInertia_kg_m2": 0.0034061807178500311,
+      "Stiffness_Nm_rad": 2.2029051708612917,
+      "PeakCurrent_A_per_V": 0.39880753230570004,
+      "PeakMotorSpeed_rad_s_per_V": 0.46626026903199908,
+      "PeakTwist_rad_per_V": 0.0091952273223104182,
+      "LocalResonanceExists": true,
+      "FullInductancePeakReduction_pct": 78.467995342979023
+    }
+  ],
+  "physicalHardware": {
+    "oil": {
+      "viscosity_cSt": 10000,
+      "density_kg_m3": 975,
+      "temperature_C": 25,
+      "outerDiameter_mm": 80,
+      "innerDiameter_mm": 10,
+      "rotorThickness_mm": 2,
+      "faceGap_mm": 1,
+      "dynamicViscosity_Pa_s": 9.75,
+      "addedDamping": 0.078395008553368423,
+      "rotorMass_kg": 0.076743610740054868,
+      "rotorInertia_kg_m2": 6.2354183726294588E-5
+    },
+    "baselineWheelMass_kg": 1.4518325825989797,
+    "distalWheelMass_kg": 2.1059269040043271,
+    "motorWheelMass_kg": 0.85281337434885951,
+    "addedResistor_ohm": 1.6,
+    "totalResistance_ohm": 4.094729039068314,
+    "resistorPeakPower_W_per_V2": 0.094982036264544711,
+    "resistorStallPower_W_per_V2": 0.09542664292884602,
+    "damperPeakPower_W_per_V2": 0.017042968122957164,
+    "resistorStallPowerAt12V_W": 13.741436581753828,
+    "oilTorqueAt1rad_s_Nm": 0.078395008553368423
+  },
+  "baselineRelativeSpeedPeak": 0.2916405981929806,
+  "physicalSwitchingMetric": "max abs(omega_motor - omega_distal), same +1 V / driven 0 V pulse"
+}
